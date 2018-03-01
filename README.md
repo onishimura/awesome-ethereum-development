@@ -2,6 +2,8 @@
 Curated list of ethereum development resources
 
 ## Tutorials
+- dev_zl : https://hackernoon.com/ethereum-development-walkthrough-part-1-smart-contracts-b3979e6e573e
+- pet-shop : http://truffleframework.com/tutorials/pet-shop
 - CryptoZombies : https://cryptozombies.io/
 - Hello World (3 parts): https://medium.com/@mvmurthy/full-stack-hello-world-voting-ethereum-dapp-tutorial-part-1-40d2d0d807c2
 - Truffle + OpenZeppelin : https://blog.zeppelin.solutions/how-to-create-token-and-initial-coin-offering-contracts-using-truffle-openzeppelin-1b7a5dae99b6 (https://github.com/gustavoguimaraes/my-ico)
@@ -16,9 +18,17 @@ Curated list of ethereum development resources
 - TokenMarketNet : https://github.com/TokenMarketNet/ico
 - DappSys : https://github.com/dapphub/dappsys
 
+## Tools
+- Ganache : http://truffleframework.com/ganache/
+- Remix : https://remix.ethereum.org/
+- Drizzle : http://truffleframework.com/blog/drizzle-reactive-ethereum-data-for-front-ends
+
+## IPFS
+- https://medium.com/@ConsenSys/an-introduction-to-ipfs-9bba4860abd0
+- https://flyingzumwalt.gitbooks.io/decentralized-web-primer/content/files-on-ipfs/
+
 ## Practices
 - Consensys : https://consensys.github.io/smart-contract-best-practices/recommendations/
-
 
 ## Courses
 - https://www.reddit.com/r/ethdev/comments/7yfwzq/solidityethereum_courses_that_are_actually_worth/
