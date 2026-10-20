@@ -37,7 +37,7 @@
 - [Solady](https://github.com/Vectorized/solady) - Gas-optimized Solidity library with tokens, auth, proxies, and utilities.
 - [viem](https://viem.sh) - Lightweight, modular TypeScript Ethereum library with native BigInt and type inference.
 - [wagmi](https://wagmi.sh) - React hooks for Ethereum built on viem, with wallet connectors and chain management.
-- [web3.py](https://github.com/ethereum/web3.py) - Python library for interacting with Ethereum.
+- [web3.py](https://github.com/ApeWorX/web3.py) - Python library for interacting with Ethereum.
 
 ## Clients
 
@@ -53,7 +53,7 @@
 - [Lodestar](https://github.com/ChainSafe/lodestar) - TypeScript consensus client by ChainSafe, browser-friendly and research-oriented.
 - [Nimbus](https://github.com/status-im/nimbus-eth2) - Nim consensus client, lightweight and resource-efficient.
 - [Prysm](https://github.com/OffchainLabs/prysm) - Go consensus client developed by Offchain Labs.
-- [Teku](https://github.com/Consensys/teku) - Java consensus client by ConsenSys.
+- [Teku](https://github.com/Consensys-Incorporated/teku) - Java consensus client by ConsenSys.
 
 ## Tools
 - [Remix](https://remix.ethereum.org/) - Browser-based IDE for writing, testing, and deploying smart contracts.
@@ -124,7 +124,7 @@
 - [Private deploy (TokenMarket)](https://gist.github.com/hsinhoyeh/a6065d0c6620ed420600cfbb095323ac) - Private deployment script.
 
 ## Other lists
-- [btomashvili/awesome-ethereum](https://github.com/btomashvili/awesome-ethereum) - Another curated list of Ethereum resources.
+- [bekatom/awesome-ethereum](https://github.com/bekatom/awesome-ethereum) - Another curated list of Ethereum resources.
 
 ## General
 - [Understanding ERC-20 token contracts](https://medium.com/@jgm.orinoco/understanding-erc-20-token-contracts-a809a7310aa5) - Guide to ERC-20 tokens.
