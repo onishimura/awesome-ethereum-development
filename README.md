@@ -112,7 +112,7 @@
 - [IPFS Documentation](https://docs.ipfs.tech/) - Official IPFS documentation and guides.
 
 ## Practices
-- [Consensys Smart Contract Best Practices](https://diligence.security/best-practices/) - Comprehensive guide for smart contract security.
+- [Consensys Smart Contract Best Practices](https://consensysdiligence.github.io/smart-contract-best-practices/) - Comprehensive guide for smart contract security.
 
 ## Courses
 - [Reddit: Ethereum courses that are actually worth it](https://www.reddit.com/r/ethdev/comments/7yfwzq/solidityethereum_courses_that_are_actually_worth/) - Community-recommended Ethereum courses.
