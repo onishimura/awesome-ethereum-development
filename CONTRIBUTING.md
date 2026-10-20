@@ -9,7 +9,7 @@ To maintain quality and usefulness, all submissions must meet these requirements
 1. **Actively Maintained**: The project should have had activity (commits, releases, or meaningful updates) within the last 6 months
 2. **Genuinely Useful**: The resource should provide clear value to Ethereum developers
 3. **Primary Source**: Link directly to the project's official repository or documentation, not third-party articles or aggregators
-4. **No Commercial Bias**: No paid services without free tiers, affiliate links, or token promotions
+4. **No Commercial Bias**: No paid or affiliate promotions and no token promotions. Commercial products may be listed only when they are open source
 
 ## How to Contribute
 
