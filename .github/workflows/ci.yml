@@ -1,0 +1,38 @@
+name: Awesome List CI
+
+on:
+  pull_request:
+    branches: [ master ]
+  push:
+    branches: [ master ]
+
+jobs:
+  awesome-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Install awesome-lint
+        run: npm install -g awesome-lint
+      - name: Run awesome-lint
+        run: awesome-lint
+
+  link-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Link Checker
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --verbose --no-progress --accept 200,201,202,203,204,300,301,302,303,304,307,308,403,429 --timeout 10 --max-retries 3 --retry-wait-time 2 --exclude-path './.git' '**/*.md'
+          fail: false
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+      - name: Check link checker output
+        run: |
+          if [ -f lychee/out.md ]; then
+            echo "Link check results:"
+            cat lychee/out.md
+          fi
