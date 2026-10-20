@@ -87,7 +87,7 @@
 
 ## L2 and Account Abstraction
 - [Alto](https://github.com/pimlicolabs/alto) - TypeScript implementation of an ERC-4337 bundler.
-- [Arbitrum Orbit](https://docs.arbitrum.io/launch-orbit-chain/orbit-gentle-introduction) - Framework for building customizable L2/L3 chains on Arbitrum.
+- [Arbitrum Orbit](https://docs.arbitrum.io/launch-arbitrum-chain/overview/introduction) - Framework for building customizable L2/L3 chains on Arbitrum.
 - [OP Stack](https://github.com/ethereum-optimism/optimism) - Modular framework for building Optimism-based rollups.
 - [ZK Stack](https://docs.zksync.io/zk-stack) - Framework for building sovereign ZK chains on zkSync.
 
@@ -112,7 +112,7 @@
 - [IPFS Documentation](https://docs.ipfs.tech/) - Official IPFS documentation and guides.
 
 ## Practices
-- [Consensys Smart Contract Best Practices](https://consensys.io/diligence/best-practices/) - Comprehensive guide for smart contract security.
+- [Consensys Smart Contract Best Practices](https://diligence.security/best-practices/) - Comprehensive guide for smart contract security.
 
 ## Courses
 - [Reddit: Ethereum courses that are actually worth it](https://www.reddit.com/r/ethdev/comments/7yfwzq/solidityethereum_courses_that_are_actually_worth/) - Community-recommended Ethereum courses.
