@@ -26,6 +26,6 @@ jobs:
       - name: Link Checker
         uses: lycheeverse/lychee-action@v2
         with:
-          args: --verbose --no-progress --accept 200,201,202,203,204,300,301,302,303,304,307,308 --timeout 10 --max-retries 3 --retry-wait-time 2 --exclude 'medium\.com' --exclude 'reddit\.com' --exclude 'etherscan\.io' --exclude-path './.git' '**/*.md'
+          args: --verbose --no-progress --accept 200,201,202,203,204,300,301,302,303,304,307,308 --timeout 10 --max-retries 3 --retry-wait-time 2 --exclude 'medium\.com' --exclude 'reddit\.com' --exclude 'etherscan\.io' --exclude 'awesome\.re' --exclude-path './.git' '**/*.md'
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}

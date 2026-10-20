@@ -102,7 +102,7 @@
 - [Sepolia](https://ethereum.org/developers/docs/networks/) - Recommended testnet for application and smart contract development.
 
 ## Tutorials
-- [B9lab Academy](https://academy.b9lab.com/) - Ethereum development courses.
+- [B9lab Academy](https://b9lab.com/) - Ethereum development courses.
 - [CryptoZombies](https://cryptozombies.io/) - Interactive code school for learning Solidity.
 - [Hello World (3 parts)](https://medium.com/@mvmurthy/full-stack-hello-world-voting-ethereum-dapp-tutorial-part-1-40d2d0d807c2) - Full stack voting dApp tutorial.
 - [What the Func](https://www.youtube.com/channel/UC0Wu-J4_SoFOYVKA8JRuRRg/videos) - Video tutorials on Ethereum development.
