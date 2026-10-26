@@ -44,11 +44,13 @@
 ### Execution Clients
 - [Besu](https://github.com/besu-eth/besu) - Java/JVM execution client, Apache-licensed, enterprise-focused.
 - [Erigon](https://github.com/erigontech/erigon) - Go execution client with staged sync and efficient archive storage.
+- [ethrex](https://github.com/lambdaclass/ethrex) - Rust execution client by LambdaClass.
 - [Geth](https://github.com/ethereum/go-ethereum) - Official Go implementation of the Ethereum protocol.
 - [Nethermind](https://github.com/NethermindEth/nethermind) - C#/.NET execution client with strong plugin and metrics support.
 - [Reth](https://github.com/paradigmxyz/reth) - Rust execution client focused on modularity and performance.
 
 ### Consensus Clients
+- [Grandine](https://github.com/grandinetech/grandine) - Rust consensus client.
 - [Lighthouse](https://github.com/sigp/lighthouse) - Rust consensus client by Sigma Prime.
 - [Lodestar](https://github.com/ChainSafe/lodestar) - TypeScript consensus client by ChainSafe, browser-friendly and research-oriented.
 - [Nimbus](https://github.com/status-im/nimbus-eth2) - Nim consensus client, lightweight and resource-efficient.
@@ -57,6 +59,9 @@
 
 ## Tools
 - [Remix](https://remix.ethereum.org/) - Browser-based IDE for writing, testing, and deploying smart contracts.
+- [Solidity](https://github.com/argotorg/solidity) - Compiler and language for Ethereum smart contracts (v0.8.38, October 22, 2026).
+- [Sourcify](https://github.com/argotorg/sourcify) - Open-source contract verification and metadata service (server 4.2.0, October 2026).
+- [Vyper](https://github.com/vyperlang/vyper) - Pythonic smart contract language and compiler.
 
 ## Security
 - [Aderyn](https://github.com/Cyfrin/aderyn) - Rust-based Solidity static analyzer for identifying vulnerabilities.
@@ -81,6 +86,7 @@
 - [ERC-4337](https://ercs.ethereum.org/ERCS/erc-4337) - Account abstraction standard enabling smart contract wallets.
 - [Forkcast](https://forkcast.org) - Tool for tracking and analyzing Ethereum network upgrades.
 - [Fusaka/PeerDAS](https://ethereum.org/roadmap/fusaka/) - Peer data availability sampling ([EIP-7594](https://eips.ethereum.org/EIPS/eip-7594)) for L2 scaling (December 2025).
+- [Glamsterdam](https://ethereum.org/roadmap/glamsterdam/) - ePBS ([EIP-7732](https://eips.ethereum.org/EIPS/eip-7732)) and block-level access lists ([EIP-7928](https://eips.ethereum.org/EIPS/eip-7928)); live on Sepolia since October 6, 2026 (Hoodi postponed, mainnet not scheduled).
 - [Pectra/EIP-7702](https://ethereum.org/roadmap/pectra/) - EOA account code delegation ([EIP-7702](https://eips.ethereum.org/EIPS/eip-7702)) (May 2025).
 - [Shapella](https://blog.ethereum.org/2023/03/28/shapella-mainnet-announcement) - Staking withdrawals enabled (April 2023).
 - [The Merge](https://ethereum.org/roadmap/merge/) - Transition from PoW to PoS (September 2022).
