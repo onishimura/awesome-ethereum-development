@@ -18,7 +18,6 @@
 - [Practices](#practices)
 - [Courses](#courses)
 - [Community](#community)
-- [Snippets](#snippets)
 - [Other lists](#other-lists)
 - [General](#general)
 
@@ -58,7 +57,9 @@
 - [Teku](https://github.com/Consensys-Incorporated/teku) - Java consensus client by ConsenSys.
 
 ## Tools
+- [evm.codes](https://www.evm.codes/) - Interactive EVM opcode and precompile reference with per-fork gas costs and a playground.
 - [Remix](https://remix.ethereum.org/) - Browser-based IDE for writing, testing, and deploying smart contracts.
+- [Solhint](https://github.com/protofire/solhint) - Linter for Solidity with security and style rules.
 - [Solidity](https://github.com/argotorg/solidity) - Compiler and language for Ethereum smart contracts (v0.8.38, October 22, 2026).
 - [Sourcify](https://github.com/argotorg/sourcify) - Open-source contract verification and metadata service (server 4.2.0, October 2026).
 - [Vyper](https://github.com/vyperlang/vyper) - Pythonic smart contract language and compiler.
@@ -67,14 +68,15 @@
 - [Aderyn](https://github.com/Cyfrin/aderyn) - Rust-based Solidity static analyzer for identifying vulnerabilities.
 - [Building Secure Contracts](https://github.com/crytic/building-secure-contracts) - Guidelines and training material for writing secure smart contracts.
 - [Certora Prover](https://github.com/Certora/CertoraProver) - Formal verification tool for smart contracts.
-- [Common issues](https://medium.com/@sbeyer_31150/ethereum-smart-contract-security-73b0ede73fa8) - Overview of smart contract security vulnerabilities.
 - [Echidna](https://github.com/crytic/echidna) - Property-based fuzzer for Ethereum smart contracts.
+- [Heimdall](https://github.com/Jon-Becker/heimdall-rs) - EVM bytecode toolkit for decompiling, disassembling, and decoding unverified contracts and calldata.
 - [Kontrol](https://github.com/runtimeverification/kontrol) - Formal verification tool for Ethereum smart contracts using K framework.
 - [Medusa](https://github.com/crytic/medusa) - Parallel smart-contract fuzzer built on Geth with coverage-guided exploration.
 - [OpenZeppelin Monitor](https://github.com/OpenZeppelin/openzeppelin-monitor) - Monitor smart contract events, functions, and transactions.
+- [OWASP Smart Contract Top 10](https://scs.owasp.org/sctop10/) - Annually updated ranking of the most critical smart contract vulnerabilities, with prevention guidance.
 - [safe-tx-hashes-util](https://github.com/pcaversaccio/safe-tx-hashes-util) - Verify Safe transaction and message hashes before signing.
 - [Slither](https://github.com/crytic/slither) - Static analyzer for Solidity with vulnerability detectors and Python API.
-- [Storage Exploits](https://medium.com/@sbeyer_31150/storage-allocation-exploits-in-ethereum-smart-contracts-16c2aa312743) - Storage allocation exploits in smart contracts.
+- [Solidity Security Considerations](https://docs.soliditylang.org/en/latest/security-considerations.html) - Official Solidity documentation on common pitfalls such as reentrancy, gas limits, and tx.origin.
 
 ## Testing and Devnets
 - [ethereum-package](https://github.com/ethpandaops/ethereum-package) - Kurtosis package for spinning up local Ethereum testnets.
@@ -95,6 +97,7 @@
 - [Alto](https://github.com/pimlicolabs/alto) - TypeScript implementation of an ERC-4337 bundler.
 - [Arbitrum Orbit](https://docs.arbitrum.io/launch-arbitrum-chain/overview/introduction) - Framework for building customizable L2/L3 chains on Arbitrum.
 - [OP Stack](https://github.com/ethereum-optimism/optimism) - Modular framework for building Optimism-based rollups.
+- [Safe Smart Account](https://github.com/safe-fndn/safe-smart-account) - Audited multisig smart account contracts that underpin Safe wallets.
 - [ZK Stack](https://docs.zksync.io/zk-stack) - Framework for building sovereign ZK chains on zkSync.
 
 ## Data and Indexing
@@ -108,29 +111,25 @@
 - [Sepolia](https://ethereum.org/developers/docs/networks/) - Recommended testnet for application and smart contract development.
 
 ## Tutorials
-- [B9lab Academy](https://b9lab.com/) - Ethereum development courses.
 - [CryptoZombies](https://cryptozombies.io/) - Interactive code school for learning Solidity.
-- [Hello World (3 parts)](https://medium.com/@mvmurthy/full-stack-hello-world-voting-ethereum-dapp-tutorial-part-1-40d2d0d807c2) - Full stack voting dApp tutorial.
+- [ethereum.org Developer Tutorials](https://ethereum.org/developers/tutorials/) - Maintained, tagged collection of Ethereum development tutorials.
 - [What the Func](https://www.youtube.com/channel/UC0Wu-J4_SoFOYVKA8JRuRRg/videos) - Video tutorials on Ethereum development.
 
 ## IPFS
-- [An introduction to IPFS](https://medium.com/@ConsenSys/an-introduction-to-ipfs-9bba4860abd0) - Introduction to the InterPlanetary File System.
+- [Helia](https://github.com/ipfs/helia) - TypeScript implementation of IPFS for browsers and Node.js.
 - [IPFS Documentation](https://docs.ipfs.tech/) - Official IPFS documentation and guides.
 
 ## Practices
 - [Consensys Smart Contract Best Practices](https://consensysdiligence.github.io/smart-contract-best-practices/) - Comprehensive guide for smart contract security.
 
 ## Courses
-- [Reddit: Ethereum courses that are actually worth it](https://www.reddit.com/r/ethdev/comments/7yfwzq/solidityethereum_courses_that_are_actually_worth/) - Community-recommended Ethereum courses.
+- [Speedrun Ethereum](https://speedrunethereum.com/) - Hands-on Solidity challenges built on Scaffold-ETH 2, from tokens to DEXs, oracles, and ZK voting.
 
 ## Community
 - [/r/ethdev](https://www.reddit.com/r/ethdev/) - Ethereum development subreddit.
-
-## Snippets
-- [Private deploy (TokenMarket)](https://gist.github.com/hsinhoyeh/a6065d0c6620ed420600cfbb095323ac) - Private deployment script.
 
 ## Other lists
 - [bekatom/awesome-ethereum](https://github.com/bekatom/awesome-ethereum) - Another curated list of Ethereum resources.
 
 ## General
-- [Understanding ERC-20 token contracts](https://medium.com/@jgm.orinoco/understanding-erc-20-token-contracts-a809a7310aa5) - Guide to ERC-20 tokens.
+- [ERC-20 Token Standard](https://ethereum.org/developers/docs/standards/tokens/erc-20/) - Official ethereum.org guide to the ERC-20 token interface.
