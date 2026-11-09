@@ -59,9 +59,11 @@
 ## Tools
 - [evm.codes](https://www.evm.codes/) - Interactive EVM opcode and precompile reference with per-fork gas costs and a playground.
 - [Remix](https://remix.ethereum.org/) - Browser-based IDE for writing, testing, and deploying smart contracts.
+- [Slang](https://github.com/NomicFoundation/slang) - Nomic Foundation's independent Solidity compiler toolkit; full compiler reached alpha on November 3, 2026 as the hardhat-slang Hardhat 3 plugin.
+- [Solar](https://github.com/paradigmxyz/solar) - Paradigm's Rust Solidity compiler with a fast frontend, linter, and language server that ships in Foundry; v0.3.0 (November 2, 2026) adds experimental EVM code generation, not for production.
 - [Solhint](https://github.com/protofire/solhint) - Linter for Solidity with security and style rules.
 - [Solidity](https://github.com/argotorg/solidity) - Compiler and language for Ethereum smart contracts (v0.8.38, October 22, 2026).
-- [Sourcify](https://github.com/argotorg/sourcify) - Open-source contract verification and metadata service (server 4.2.0, October 2026).
+- [Sourcify](https://github.com/argotorg/sourcify) - Open-source contract verification and metadata service (server 4.3.0, November 3, 2026, security release).
 - [Vyper](https://github.com/vyperlang/vyper) - Pythonic smart contract language and compiler.
 
 ## Security
@@ -69,6 +71,7 @@
 - [Building Secure Contracts](https://github.com/crytic/building-secure-contracts) - Guidelines and training material for writing secure smart contracts.
 - [Certora Prover](https://github.com/Certora/CertoraProver) - Formal verification tool for smart contracts.
 - [Echidna](https://github.com/crytic/echidna) - Property-based fuzzer for Ethereum smart contracts.
+- [Glamsterdam Gas Invariants](https://github.com/ethereum/glamsterdam-gas-invariants) - Ethereum Foundation repo of eight contract and off-chain invariants broken by Glamsterdam's EIP-8037 and EIP-8038 gas repricing, with red flags, fixes, and an AGENTS.md audit procedure.
 - [Heimdall](https://github.com/Jon-Becker/heimdall-rs) - EVM bytecode toolkit for decompiling, disassembling, and decoding unverified contracts and calldata.
 - [Kontrol](https://github.com/runtimeverification/kontrol) - Formal verification tool for Ethereum smart contracts using K framework.
 - [Medusa](https://github.com/crytic/medusa) - Parallel smart-contract fuzzer built on Geth with coverage-guided exploration.
@@ -88,7 +91,7 @@
 - [ERC-4337](https://ercs.ethereum.org/ERCS/erc-4337) - Account abstraction standard enabling smart contract wallets.
 - [Forkcast](https://forkcast.org) - Tool for tracking and analyzing Ethereum network upgrades.
 - [Fusaka/PeerDAS](https://ethereum.org/roadmap/fusaka/) - Peer data availability sampling ([EIP-7594](https://eips.ethereum.org/EIPS/eip-7594)) for L2 scaling (December 2025).
-- [Glamsterdam](https://ethereum.org/roadmap/glamsterdam/) - ePBS ([EIP-7732](https://eips.ethereum.org/EIPS/eip-7732)) and block-level access lists ([EIP-7928](https://eips.ethereum.org/EIPS/eip-7928)); live on Sepolia since October 6, 2026 (Hoodi postponed, mainnet not scheduled).
+- [Glamsterdam](https://ethereum.org/roadmap/glamsterdam/) - ePBS ([EIP-7732](https://eips.ethereum.org/EIPS/eip-7732)) and block-level access lists ([EIP-7928](https://eips.ethereum.org/EIPS/eip-7928)); live on Sepolia since October 6, 2026 (Hoodi postponed until EIP-8037/EIP-8038 contract-invariant issues are resolved; no Hoodi or mainnet date set).
 - [Pectra/EIP-7702](https://ethereum.org/roadmap/pectra/) - EOA account code delegation ([EIP-7702](https://eips.ethereum.org/EIPS/eip-7702)) (May 2025).
 - [Shapella](https://blog.ethereum.org/2023/03/28/shapella-mainnet-announcement) - Staking withdrawals enabled (April 2023).
 - [The Merge](https://ethereum.org/roadmap/merge/) - Transition from PoW to PoS (September 2022).
