@@ -84,6 +84,7 @@
 ## Testing and Devnets
 - [ethereum-package](https://github.com/ethpandaops/ethereum-package) - Kurtosis package for spinning up local Ethereum testnets.
 - [execution-specs](https://github.com/ethereum/execution-specs) - Python execution specs and test framework for Ethereum.
+- [Hardhat Amsterdam Support](https://hardhat.org/docs/reference/amsterdam-support) - Hardhat 3 guide to opting simulated networks into the experimental Amsterdam (Glamsterdam) hardfork to test contracts against EIP-7928, EIP-8037, and EIP-8038 gas changes, with state-gas dimensions in traces.
 - [Wake](https://github.com/Ackee-Blockchain/wake) - Python-based development and testing framework for Solidity.
 
 ## Network Upgrades & EIPs
